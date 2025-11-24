@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 
 function App() {
 
-  const [userName, setUserName] = useState("bryan");
+  const [userName, setUserName] = useState("CFD FALL 2025");
 
   return (
     <div className="App">
       <Header />
-      <h1>Cubs Stink!!!</h1>
+      <h1>Bears Stink!!!</h1>
       <div>
         <label>UserName:</label>
         <input onChange={(e) => setUserName(e.target.value)} value={userName} type="text"></input>
